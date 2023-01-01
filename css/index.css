@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  display: flex;
+  margin-right: 65px;
+  font-size: large;
+}
+.active-item {
+  color: orange;
+}

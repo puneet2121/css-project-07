@@ -11,7 +11,7 @@ nav {
   font-size: large;
 }
 .active-item {
-  color: orange;
+  color: #fe5e35;
 }
 img[src='./images/circles.svg'] {
   margin-left: 10px;
@@ -32,7 +32,59 @@ h1 {
 .intro-section {
   display: flex;
 }
-.right-section {
-  margin-bottom: 80px;
-  border: red;
+img[src="./images/discount.svg"] {
+ margin-top: 340px;
+ position:relative;
+ width: 235px;
+height: 155px;
+ 
+}
+.right-section > .headphone-div {
+  
+}
+img[src="./images/headphones.jpg"] {
+  margin-top: -510px;
+  
+  
+}
+
+.right-section > .headphone-div > .discount-content {
+  margin-top: -170px;
+  margin-left: 60px;
+  font-size: 17px;
+  position: relative;
+  
+}
+.right-section > .headphone-div > .discount-content > h1 {
+  font-size: 55px;
+  margin-top: -20px;
+}
+img[src="./images/plus.svg"] {
+  background-color: #fe5e35;
+  border-radius: 80px;
+  margin-right: 10px;
+  width: 28px;
+}
+.sub-headlines {
+  margin-left: 80px;
+  
+}
+body {
+  margin-top: 27px;
+  margin-left:65px;
+}
+h5 {
+  font-size: 25px;
+  font-weight: 100;
+}
+p {
+  margin-top: 60px;
+  width: 630px;
+  color: grey;
+}
+.action-btn {
+  background-color: #fe5e35;
+  color: white;
+  width: 143px;
+  height: 50px;
 }

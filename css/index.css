@@ -7,7 +7,7 @@ nav {
 }
 .nav-item {
   display: flex;
-  margin-right: 65px;
+  margin-right: 89px;
   font-size: large;
   font-weight: 900;
 }
@@ -37,7 +37,7 @@ img[src="./images/discount.svg"] {
  margin-top: 340px;
  position:relative;
  width: 235px;
-height: 155px;
+ height: 155px;
  
 }
 .right-section > .headphone-div {
@@ -51,21 +51,23 @@ img[src="./images/headphones.jpg"] {
 }
 
 .right-section > .headphone-div > .discount-content {
-  margin-top: -170px;
-  margin-left: 60px;
+  margin-top: -134px;
+  margin-left: 77px;
   font-size: 17px;
   position: relative;
-  
+  color: white;
 }
 .right-section > .headphone-div > .discount-content > h1 {
-  font-size: 55px;
+  font-size: 45px;
   margin-top: -20px;
+
 }
 img[src="./images/plus.svg"] {
   background-color: #fe5e35;
-  border-radius: 80px;
+  border-radius: 50%;
   margin-right: 10px;
-  width: 28px;
+  width: 21px;
+  padding: 4px;
 }
 .sub-headlines {
   margin-left: 80px;
@@ -91,14 +93,14 @@ p {
   border:none;
   margin-top: 26px;
   width: 188px;
-  height: 60px;
+  height: 55px;
   margin-right: 25px;
   border-radius: 2rem;
 }
 .dots {
   display: flex;
   margin-left: 270px;
-  margin-top: 15px;
+  margin-top: 21px;
   
 }
 .dot.yellow-dot {
@@ -121,4 +123,8 @@ p {
   width: 30px;
   height: 30px;
   margin-right: 21px;
+}
+button:nth-child(3) {
+  margin-top: 50px;
+  margin-left: 242px;
 }

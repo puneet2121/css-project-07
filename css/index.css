@@ -9,6 +9,7 @@ nav {
   display: flex;
   margin-right: 65px;
   font-size: large;
+  font-weight: 900;
 }
 .active-item {
   color: #fe5e35;
@@ -93,4 +94,31 @@ p {
   height: 60px;
   margin-right: 25px;
   border-radius: 2rem;
+}
+.dots {
+  display: flex;
+  margin-left: 270px;
+  margin-top: 15px;
+  
+}
+.dot.yellow-dot {
+  background: rgb(216, 216, 79);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 21px;
+}
+.dot.tomato-dot {
+  background: tomato;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 21px;
+}
+.dot.black-dot {
+  background: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 21px;
 }

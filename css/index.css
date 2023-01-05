@@ -5,10 +5,13 @@ nav {
 .nav-items {
   display: flex;
 }
+img[src="./images/logo.svg"] {
+  margin-right: 180px;
+}
 .nav-item {
   display: flex;
   margin-right: 89px;
-  font-size: large;
+  font-size:larger;
   font-weight: 900;
 }
 .active-item {
